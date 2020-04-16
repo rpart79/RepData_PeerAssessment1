@@ -9,7 +9,7 @@ In this assignment, we explore the movement data gathered by an anonymous indivi
 
 ## Loading and preprocessing the data
 
-### 1. Load the data (i.e. \color{red}{\verb|read.csv()|}read.csv())
+### 1. Load the data (i.e.read.csv())
 
 First, we set up a working directory using the *setwd()* function. Then we load the data from that directory into R memory, invoking the *read.csv()* function and storing the dataframe under a name using the <- operator: 
 
@@ -191,7 +191,7 @@ Essentially, this is an observation from the aggregated dataframe, showing that 
 
 ## Imputing missing values
 
-### 1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with \color{red}{\verb|NA|}NAs)
+### 1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
 However, the individual has not been entirely consistent in his or her registrations and on a number of occasions data has not been reported. How often did this happen? We can check this in two ways: First, we can employ the *is.na()* function which returns 1 if the argument is missing (NA) and 0 otherwise. So adding up the ones would give us the  number of intervals with no data. Alternatively, we can use the summary function on the data to get a quick overview of the contents, including the number of null values.
 
 
@@ -328,4 +328,5 @@ plot(subs2, type="l")
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-20-1.png)<!-- -->
+
 As can be seen from the output, there are significant differences between weekdays and weekends.
